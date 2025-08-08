@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20"
+   height="20"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="desk.svg"
+   inkscape:export-filename="/home/lara/.themes/Bloody/assets/close.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="12.982584"
+     inkscape:cx="13.248518"
+     inkscape:cy="9.9749018"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4090"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-671.14288,-644.57648)">
+    <g
+       transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)"
+       inkscape:label="ink_ext_XXXXXX"
+       id="g4090">
+      <g
+         transform="scale(0.1)"
+         id="g4092">
+        <circle
+           style="fill:#f2cdcd;fill-opacity:1;stroke:none;stroke-width:263.569;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           id="circle4454"
+           cx="716.79724"
+           cy="-673.17603"
+           r="553.08643"
+           transform="scale(1,-1)" />
+        <g
+           id="g4820"
+           style="stroke:#ffffff;stroke-opacity:1"
+           transform="matrix(368.95,0,0,-368.95,-34890.751,34917.274)">
+          <path
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             d="m 96.831112,92.494376 -0.641258,0.641257"
+             id="path4510" />
+          <path
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             d="m 96.510485,92.173748 -10e-7,1.282515"
+             id="path4512" />
+          <path
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             d="m 95.86923,92.815006 h 1.282513"
+             id="path4514" />
+          <path
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             d="m 96.189855,92.494377 0.641257,0.641256"
+             id="path4520" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
