@@ -7,11 +7,11 @@ window.active.indicator.toggled-keybind.color: #ff0000
 window.active.title.bg.color: #c5c5c4
 window.inactive.title.bg.color: #c5c5c4 
 window.active.label.text.color: #424242
-window.inactive.label.text.color: #bdbdbd
+window.inactive.label.text.color: #717171
 window.label.text.justify: Center
 window.button.width: 24
 window.button.height: 24
-window.button.spacing: 2
+window.button.spacing: 0
 window.button.hover.bg.corner-radius: 12
 window.active.button.unpressed.image.color: #6e5892
 window.active.button.close.unpressed.image.color: #ff5454
@@ -22,19 +22,21 @@ window.active.shadow.size: 30
 window.inactive.shadow.size: 25
 window.active.shadow.color: #5e5b59
 window.inactive.shadow.color: #5e5b59
+window.*.title.bg: Gradient Vertical
+window.*.title.bg.colorTo: #a7a7a7
 
 menu.overlap.x: -1
 menu.overlap.y: 0
 menu.width.min: 20
 menu.width.max: 200
 menu.border.width: 1
-menu.border.color: #ededed
+menu.border.color: #c5c5c4
 menu.items.padding.x: 6
 menu.items.padding.y: 4
 menu.items.bg.color: #e2e2e2
 menu.items.text.color: #424242
-menu.items.active.bg.color: #96c8eb
-menu.items.active.text.color: #424242
+menu.items.active.bg.color: #3356f8
+menu.items.active.text.color: #fefefe
 menu.separator.width: 1
 menu.separator.padding.width: 6
 menu.separator.padding.height: 3
