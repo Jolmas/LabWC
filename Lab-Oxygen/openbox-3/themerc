@@ -1,27 +1,29 @@
 border.width: 1
 window.titlebar.padding.width: 4
-window.titlebar.padding.height: 0
+window.titlebar.padding.height: 1
 window.active.border.color: #c5c5c4
 window.inactive.border.color: #c5c5c4
 window.active.indicator.toggled-keybind.color: #ff0000
-window.active.title.bg.color: #dde2e8
-window.inactive.title.bg.color: #dde2e8
-window.active.label.text.color: #dde2e8
+window.active.title.bg.color: #dde0e8
+window.inactive.title.bg.color: #dde0e8
+window.active.label.text.color: #424242
 window.inactive.label.text.color: #717171
 window.label.text.justify: Center
-window.button.width: 24
-window.button.height: 24
+window.button.width: 22
+window.button.height: 22
 window.button.spacing: 0
-window.button.hover.bg.corner-radius: 12
+window.button.hover.bg.corner-radius: 10
 window.active.button.unpressed.image.color: #6e5892
 window.active.button.close.unpressed.image.color: #ff5454
 window.active.button.max.unpressed.image.color: #4ffa7c
 window.active.button.iconify.unpressed.image.color: #f1fa8d
 window.inactive.button.unpressed.image.color: #9795ad
-window.active.shadow.size: 30
-window.inactive.shadow.size: 25
+window.active.shadow.size: 16
+window.inactive.shadow.size: 14
 window.active.shadow.color: #8ed6f9
 window.inactive.shadow.color: #3a7b8a
+window.*.title.bg: Gradient Vertical
+window.*.title.bg.colorTo: #c5c9d2
 
 menu.overlap.x: -1
 menu.overlap.y: 0
@@ -31,9 +33,9 @@ menu.border.width: 1
 menu.border.color: #c5c5c4
 menu.items.padding.x: 6
 menu.items.padding.y: 4
-menu.items.bg.color: #e2e2e2
+menu.items.bg.color: #e5e8edE1
 menu.items.text.color: #424242
-menu.items.active.bg.color: #c9c3c0
+menu.items.active.bg.color: #B0B7CD
 menu.items.active.text.color: #424242
 menu.separator.width: 1
 menu.separator.padding.width: 6
@@ -43,7 +45,7 @@ menu.title.bg.color: #2d3036
 menu.title.text.justify: Center
 menu.title.text.color: #d3dae3
 
-osd.bg.color: #dde2e8
+osd.bg.color: #dde2e8E1
 osd.border.color: #eeedec
 osd.border.width: 1
 osd.label.text.color: #424242
