@@ -1,6 +1,6 @@
 border.width: 1
-window.titlebar.padding.width: 2
-window.titlebar.padding.height: 0
+window.titlebar.padding.width: 10
+window.titlebar.padding.height: 2
 window.active.border.color: #97b8e5
 window.inactive.border.color: #97b8e5
 window.active.indicator.toggled-keybind.color: #ff0000
@@ -9,9 +9,9 @@ window.inactive.title.bg.color: #d2e5fc
 window.active.label.text.color: #4d4d4d
 window.inactive.label.text.color: #7f8388
 window.label.text.justify: Center
-window.button.width: 22
-window.button.height: 22
-window.button.spacing: 6
+window.button.width: 20
+window.button.height: 20
+window.button.spacing: 12
 window.button.hover.bg.corner-radius: 12
 window.active.button.unpressed.image.color: #6e5892
 window.active.button.close.unpressed.image.color: #ff5454
