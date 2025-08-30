@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing..."
+echo "Installing themes..."
 
 # -------------------------
 # Directories
@@ -8,75 +8,99 @@ echo "Installing..."
 src="./"
 dest="$HOME/.local/share/themes"
 
+# List of themes to install
+themes=(
+    "Lab-Aqua-Dark"
+    "Lab-Aqua-Dots"
+    "Lab-Aqua-Gradient"
+    "Lab-Aqua-Pills"
+    "Lab-Aqua7"
+    "Lab-Aquadrop"
+    "Lab-Arc-Dark"
+    "Lab-Arc-Light"
+    "Lab-Blueberry"
+    "Lab-Bluelook"
+    "Lab-Bluish"
+    "Lab-Breeze-Dark"
+    "Lab-Breeze-Light"
+    "Lab-Brisa"
+    "Lab-Brisa-Translucid"
+    "Lab-Catppuccin"
+    "Lab-Catppuccin-Frappe"
+    "Lab-Catppuccin-Latte"
+    "Lab-Catppuccin-Macchiato"
+    "Lab-Chimera"
+    "Lab-Chimera-Dark"
+    "Lab-Chimera-Light"
+    "Lab-Chimera-Night"
+    "Lab-Clearlook-Alfa"
+    "Lab-Crocus"
+    "Lab-DimGray"
+    "Lab-Dracula"
+    "Lab-Drak"
+    "Lab-Drak-thin"
+    "Lab-Edna"
+    "Lab-Evergreen"
+    "Lab-Latte"
+    "Lab-Lila"
+    "Lab-Liquid-Dark"
+    "Lab-Liquid-Glass"
+    "Lab-Mac-Dark"
+    "Lab-Mac-Light"
+    "Lab-MacOS-Leopard"
+    "Lab-MacOS-Lion"
+    "Lab-Nord"
+    "Lab-Nord-Dark"
+    "Lab-Nordic-Blue"
+    "Lab-Orchis"
+    "Lab-Orchis-Dark"
+    "Lab-Oxygen"
+    "Lab-Oxygen-Glass"
+    "Lab-Purple"
+    "Lab-Sky"
+    "Lab-Star"
+    "Lab-TokyoNight"
+    "Lab-Vintage"
+    "Lab-w10"
+    "Lab-W11"
+    "Lab-W11-Silver"
+    "Lab-W7"
+    "Lab-WhiteSur-small"
+    "Lab-xp-blue"
+    "Lab-xp-metal"
+    "Lab-xp-noir"
+    "Lab-xp-royale"
+)
+
+# --- Check and create destination directory if it doesn't exist ---
+if [ ! -d "$dest" ]; then
+    echo "Creating destination directory: $dest"
+    mkdir -p "$dest"
+fi
+
+# --- Installation function ---
 install() {
-    local src=$1
-    local dest=$2
-    echo "Installing $src..."
-    cp -r "$src/Lab-Aqua-Dark" "$dest"
-	cp -r "$src/Lab-Aqua-Dots" "$dest"
-	cp -r "$src/Lab-Aqua-Gradient" "$dest"
-	cp -r "$src/Lab-Aqua-Pills" "$dest"
-	cp -r "$src/Lab-Aqua7" "$dest"
-	cp -r "$src/Lab-Aquadrop" "$dest"
-	cp -r "$src/Lab-Arc-Dark" "$dest"
-	cp -r "$src/Lab-Arc-Light" "$dest"
-	cp -r "$src/Lab-Blueberry" "$dest"
-	cp -r "$src/Lab-Bluelook" "$dest"
-	cp -r "$src/Lab-Bluish" "$dest"
-	cp -r "$src/Lab-Breeze-Dark" "$dest"	
-	cp -r "$src/Lab-Breeze-Light" "$dest"
-	cp -r "$src/Lab-Brisa" "$dest"
-	cp -r "$src/Lab-Brisa-Translucid" "$dest"
-	cp -r "$src/Lab-Catppuccin" "$dest"
-	cp -r "$src/Lab-Catppuccin-Frappe" "$dest"
-	cp -r "$src/Lab-Catppuccin-Latte" "$dest"
-	cp -r "$src/Lab-Catppuccin-Macchiato" "$dest"
-	cp -r "$src/Lab-Chimera" "$dest"
-	cp -r "$src/Lab-Chimera-Dark" "$dest"
-	cp -r "$src/Lab-Chimera-Light" "$dest"
-	cp -r "$src/Lab-Chimera-Night" "$dest"
-	cp -r "$src/Lab-Clearlook-Alfa" "$dest"
-	cp -r "$src/Lab-Crocus" "$dest"
-	cp -r "$src/Lab-DimGray" "$dest"
-	cp -r "$src/Lab-Dracula" "$dest"
-	cp -r "$src/Lab-Drak" "$dest"
-	cp -r "$src/Lab-Drak-thin" "$dest"
-	cp -r "$src/Lab-Edna" "$dest"
-	cp -r "$src/Lab-Evergreen" "$dest"
-	cp -r "$src/Lab-Latte" "$dest"
-	cp -r "$src/Lab-Lila" "$dest"
-	cp -r "$src/Lab-Liquid-Dark" "$dest"
-	cp -r "$src/Lab-Liquid-Glass" "$dest"
-	cp -r "$src/Lab-Mac-Dark" "$dest"
-	cp -r "$src/Lab-Mac-Light" "$dest"
-	cp -r "$src/Lab-MacOS-Leopard" "$dest"
-	cp -r "$src/Lab-MacOS-Lion" "$dest"
-	cp -r "$src/Lab-Nord" "$dest"
-	cp -r "$src/Lab-Nord-Dark" "$dest"
-	cp -r "$src/Lab-Nordic-Blue" "$dest"
-	cp -r "$src/Lab-Orchis" "$dest"
-	cp -r "$src/Lab-Orchis-Dark" "$dest"
-	cp -r "$src/Lab-Oxygen" "$dest"
-	cp -r "$src/Lab-Oxygen-Glass" "$dest"
-	cp -r "$src/Lab-Purple" "$dest"
-	cp -r "$src/Lab-Sky" "$dest"
-	cp -r "$src/Lab-Star" "$dest"
-	cp -r "$src/Lab-TokyoNight" "$dest"
-	cp -r "$src/Lab-Vintage" "$dest"
-	cp -r "$src/Lab-w10" "$dest"
-	cp -r "$src/Lab-W11" "$dest"
-	cp -r "$src/Lab-W11-Silver" "$dest"
-	cp -r "$src/Lab-W7" "$dest"
-	cp -r "$src/Lab-WhiteSur-small" "$dest"
-	cp -r "$src/Lab-xp-blue" "$dest"
-	cp -r "$src/Lab-xp-metal" "$dest"
-	cp -r "$src/Lab-xp-noir" "$dest"
-	cp -r "$src/Lab-xp-royale" "$dest"
+    local source_dir=$1
+    local destination_dir=$2
+    
+    if [ ! -d "$source_dir" ]; then
+        echo "Error: Source directory '$source_dir' not found. Exiting."
+        exit 1
+    fi
+    
+    for theme in "${themes[@]}"; do
+        if [ -d "$source_dir/$theme" ]; then
+            echo "Installing $theme..."
+            cp -r "$source_dir/$theme" "$destination_dir"
+        else
+            echo "Warning: Theme directory '$theme' not found. Skipping."
+        fi
+    done
 }
 
+# --- Run installation ---
 install "$src" "$dest"
 
 echo ""
 echo "Installation complete!"
 echo ""
-
