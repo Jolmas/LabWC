@@ -64,6 +64,7 @@ themes=(
     "Lab-w10"
     "Lab-W11"
     "Lab-W11-Silver"
+    "Lab-W11-Dark"
     "Lab-W7"
     "Lab-WhiteSur-small"
     "Lab-xp-blue"
