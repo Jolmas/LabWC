@@ -4,8 +4,8 @@ window.titlebar.padding.height: 2
 window.active.border.color: #d6deeb
 window.inactive.border.color: #d6deeb
 window.active.indicator.toggled-keybind.color: #ff0000
-window.active.title.bg.color: #ffffff
-window.inactive.title.bg.color: #ffffff 
+window.active.title.bg.color: #e2e2e6F2
+window.inactive.title.bg.color: #e2e2e6F2 
 window.active.label.text.color: #424242
 window.inactive.label.text.color: #bdbdbd
 window.label.text.justify: Center
@@ -22,6 +22,10 @@ window.active.shadow.size: 30
 window.inactive.shadow.size: 25
 window.active.shadow.color: #00000080
 window.inactive.shadow.color: #00000050
+window.*.title.bg: Gradient SplitVertical
+window.*.title.bg.colorTo: #dfe0e0F2
+window.*.title.bg.splitTo.spliTo: #e6e6e9F1
+
 
 menu.overlap.x: -1
 menu.overlap.y: 0
@@ -31,7 +35,7 @@ menu.border.width: 1
 menu.border.color: #d6deeb
 menu.items.padding.x: 6
 menu.items.padding.y: 4
-menu.items.bg.color: #e0e3ea
+menu.items.bg.color: #e0e3eaF0
 menu.items.text.color: #424242
 menu.items.active.bg.color: #b6b7b9
 menu.items.active.text.color: #424242
