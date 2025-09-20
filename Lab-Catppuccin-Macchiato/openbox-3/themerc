@@ -18,10 +18,10 @@ window.active.button.close.unpressed.image.color: #ff5454
 window.active.button.max.unpressed.image.color: #4ffa7c
 window.active.button.iconify.unpressed.image.color: #f1fa8d
 window.inactive.button.unpressed.image.color: #9795ad
-window.active.shadow.size: 30
-window.inactive.shadow.size: 25
-window.active.shadow.color: #40465c90
-window.inactive.shadow.color: #40465c75
+window.active.shadow.size: 15
+window.inactive.shadow.size: 15
+window.active.shadow.color: #95623dD9
+window.inactive.shadow.color: #95623d99
 
 menu.overlap.x: -1
 menu.overlap.y: 0
