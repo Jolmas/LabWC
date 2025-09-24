@@ -57,6 +57,7 @@ themes=(
     "Lab-Oxygen"
     "Lab-Oxygen-Glass"
     "Lab-Purple"
+    "Lab-Space-Light"
     "Lab-Sky"
     "Lab-Star"
     "Lab-TokyoNight"
